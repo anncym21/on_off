@@ -77,7 +77,8 @@
         android:layout_height="241dp"
         app:srcCompat="@drawable/czerwony"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="102dp" />
+        tools:layout_editor_absoluteY="102dp"
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/imageView3"
@@ -85,7 +86,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/niebieski"
         tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="102dp" />
+        tools:layout_editor_absoluteY="102dp"
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/imageView4"
@@ -93,6 +95,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/zielony"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="105dp" />
+        tools:layout_editor_absoluteY="105dp"
+        android:visibility="invisible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

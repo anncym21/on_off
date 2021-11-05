@@ -28,25 +28,25 @@ class MainActivity : AppCompatActivity() {
             val toggle: ToggleButton = findViewById(R.id.red)
             toggle.setOnClickListener(){
                 if(isChecked){
-                    ImageView.INVISIBLE
+
                 }else {
-                    ImageView.VISIBLE
+
                 }
             }
             val toggle1: ToggleButton = findViewById(R.id.blue)
             toggle.setOnClickListener(){
                 if(isChecked){
-                    ImageView.INVISIBLE
+
                 }else{
-                    ImageView.VISIBLE
+
                 }
             }
             val toggle2: ToggleButton = findViewById(R.id.green)
             toggle.setOnClickListener(){
                 if(isChecked){
-                    ImageView.INVISIBLE
+
                 }else{
-                    ImageView.VISIBLE
+
                 }
             }
         }
